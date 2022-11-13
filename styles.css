@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    bottom: 50%;
+    left: 50%;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    bottom: 55%;
+    left: 50%;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    object-fit: fill;
+    width: 100%;
+    opacity: 80%;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+}
+
+.navigation {
+    background-color: black;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    margin: 2.5rem;
+    display: inline-block;
+    list-style-type: none;
+    background: none;
+    color: white;
+    text-decoration: none !important;
+}
+
+li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover, a:active {
+    text-decoration: none;
+    color: red;
+}
+
+li a:focus {
+    text-decoration: none;
+    color: red;
+}
